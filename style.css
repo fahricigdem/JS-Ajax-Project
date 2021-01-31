@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(125, 126, 129);
+    max-width: 100vw;
+    background-image: url(images/base.jpg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    width: 95vw;
+    font-size: 90%;
+    
+
+}
+
+.schrift  {
+        
+    padding: 0vh;
+    margin-left: 0vw;
+    width: 20%;
+    border-radius: 30vw;
+    
+}
+
+header a{
+    text-decoration: none;
+    
+}
+
+header  a:hover{
+    background-color: #ED7E32;
+    transition: 1s;
+    
+}
+
+header  a:active{
+    background-color: #ED7E32;
+    transition: 1s;
+    
+}
+
+
+.headercontainer{
+    display: flex;
+    justify-content: left;
+    max-width:  70vw;
+    align-items: center;
+    margin-top: 1vh;
+    font-size: 90%;
+}
+
+.headercontainer nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: .1vh 0vh;
+    color: white;
+}
+
+
+
+.headercontainer nav ul li   {
+
+    padding: 3vh .5vh;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 100%;
+    
+}
+
+.headercontainer img{
+    width: 5%;
+    min-width: 40px;
+    margin-right: 10px;
+    /* border-radius: 0 0 0 40px; */
+    
+}
+
+.navbar {
+    display: flex;
+
+}
+
+header span{
+    text-transform: capitalize;
+    color: rgb(233, 7, 37);
+    font-style: italic;
+}
+header h1{
+    color: white;
+    text-transform: unset;
+    font-size: x-large;
+    padding-left: .1%;
+}
+
+.listheader {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    list-style: none;
+    font: x-large;
+}
+.listheader a {
+    color: beige;
+}
+
+
+
+
+
+/* main */
+
+
+main {
+    
+    margin-top: 10px;
+}
+
+main img {
+    width: 20vw;
+    height: 20vw;
+    margin: 10px;
+    border-radius: 5%;
+    
+}
+
+.mainNachricht {
+    background-color: whitesmoke;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    
+    
+    
+}
+
+
+.mainImage {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+main img {
+    width: 20vw;
+    height: 20vw;
+    margin: 10px;
+    border-radius: 5%;
+    
+}
+
+
+.mainArtikelHaupt {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainArtikelHeader {
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.mainArtikel {
+	margin: 10px;
+}
+
+main a {
+    text-decoration:none ;
+    color: black;
+}
+.mainArtikelinfo {
+    font-size: .9rem;
+    color: rgb(114, 111, 111);
+    margin: 0px 10px 10px 10px;
+}
+
+/*Nachricht Seite*/
+.mainArtikelSozial {
+    margin: 0px 5px 5px 5px;
+}
+
+.mainSozial_ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    /* align-content: flex-start; */
+    
+
+    list-style: none;
+    margin-left: 5vh;
+}
+
+.sozial_li img  {
+    width: 5vh;
+    height: 5vh;
+    
+}  
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.footer00 {
+    text-align: center;
+}
+
+
+footer a{
+
+    padding: 10px;
+    width: 60px;
+    text-decoration:none ;
+
+}
+
+footer a:link {
+    color: fuchsia;
+    font-family: inherit;
+    font-size: 20px;   
+}
+
+footer  a:hover{
+    color:red;
+    
+}
+
+/* impressum und contact*/
+.impressum {
+    
+    margin: 20px;
+    background-color: honeydew;
+    color:blue;
+    
+}
+.impressum h1{
+    margin: 20px;
+}
+
+
+.contactMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.contact {
+    color: cornsilk;
+    width: 45vw;
+}
+
+.contactForm {
+    color: cornsilk;
+    width: 25vw;
+    margin-left: 10vw;
+
+}
+/* media queries */
+
+@media(max-width:600px){
+    .footer00 {
+        text-align: center;
+    }
+
+    .mainNachricht {
+        flex-direction: column;
+    }
+    main img {
+            width: 100%;
+            height: 180px;
+        }
+
+    }
+    .schrift  {
+        
+        padding: 0vh;
+        margin-left: 0vw;
+        width: 90%;
+        height: 50%;
+    }
+
+    .headercontainer nav ul li   {
+
+        padding: 3px 1vw;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 100%;
+        
+          }
+    .headercontainer nav ul   {
+        flex-wrap: wrap;
+        
+       
+        padding: 0px 0vw;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 100%;
+        
+        
+    }
+
+@media(max-width:1100px){
+
+    .contactMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    
+    }
+    .contact {
+        color: cornsilk;
+        
+        margin-left: 1vw;
+    }
+    
+    .contactForm {
+        color: cornsilk;
+        
+        margin-left: .1vw;
+        margin-top: 10vw;
+        margin-bottom: 20vw;
+
+           
+    }
+
+    iframe {
+        width: 250px;
+
+        height:250px;
+    }
+
+
+}
+
+

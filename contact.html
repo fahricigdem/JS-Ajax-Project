@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/hors.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontact</title>
+</head>
+<body>
+    <h1 style="color: blanchedalmond; margin: 20px;">Kontact</h1>
+    <div class="contactMain" >
+    <div class="contact"">
+       
+        <h2>Adresse</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11591.80437074405!2d9.765502726093896!3d52.35452178348831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b00b3c7c88b1ad%3A0x4e29a5f994f47297!2sBismarckstra%C3%9Fe%202%2C%2030173%20Hannover!5e0!3m2!1sen!2sde!4v1607549490169!5m2!1sen!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <div class="contactForm" >
+        <form action="/my-handling-form-page" method="post">
+            <ul style="font-variant: small-caps; list-style-type: none;">
+                <li id="li1">
+                <label for="vorname" style="size:200px;">Username</label><br>
+                <input type="text" autocomplete="on" name="vorname" placeholder="Vorname" size="10" required>
+                </li>
+                <br>
+
+                <li>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email">
+                </li>
+                <br>
+                <li class="aaa">
+                <label for="password" size="15">Password</label><br>
+                <input type="password" name="pasword" placeholder="****" size="10">
+                </li>
+                <br>
+                <li>
+                <label for="zweck" size="15">zweck</label><br>
+                <select name="zweck" >
+                <option>für Info</option>
+                <option selected="beamter">Widerruf</option>
+                <option value="st">Meldung</option> <!--value daki deger veri rtabanina gider -->
+                </select>
+                </li>
+
+                <br>
+                <fieldset style="width: 200px;">
+                    <legend >Rückmeldung</legend>
+                <li style="font-variant: normal;">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked="checked">
+                    <label for="vehicle1"> mit Email</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> telefonish</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> per Post</label>
+                </li>
+                </fieldset>
+                
+                <br>
+                <li>
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile">
+                </li>
+                <br>
+                <li>
+                    <textarea name="comment" cols="30" rows="5" placeholder="Ihre Text"></textarea>
+                </li>
+ 
+                <button name="senden">
+                    <p>Senden</p>
+                </button>
+
+                </li>
+            </ul>    
+            </form>
+    </div>
+</div>
+<footer>
+        <div class="footer0" >
+        <div class="footer1">
+            <a href="index.html" style="color: beige;">Home</a>
+        </div>
+        <div class="footer2">
+            <a href="impressum.html" style="color: beige;">Impressum</a>
+        </div>
+        <div class="footer3">
+            <a href="contact.html" style="color: beige;">Kontakt</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+        <div class="footer00" >
+           
+            <a href="#" style="color: beige;">Datenschutz</a> <br>
+            <a href="#" style="color: beige;"><p style="font-size: small;"> &copy; copyright 2020 Hannover Zeitung</p></a>
+
+         
+
+        </div>
+    </footer>
+    </body>
+</html>

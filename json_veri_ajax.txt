@@ -1,0 +1,24 @@
+{
+	"nachricht1_header":"nachricht1_header",
+	"nachricht1_text":"nachricht1_text",
+	"nachricht1_info":"nachricht1_info",
+	"nachricht1_img":"images/3.jpg",
+
+
+	
+	"nachricht2_header":"nachricht2_header",
+	"nachricht2_text":"nachricht2_text   fnsfiu cfsf csi csnfiue",
+	"nachricht2_info":"nachricht2_info",
+	"nachricht2_img":"images/2.jpg",
+
+	"nachricht3_header":"nachricht3_header",
+	"nachricht3_text":"nachricht3_text",
+	"nachricht3_info":"nachricht3_info",
+	"nachricht3_img":"images/1.jpg",
+
+	"nachricht4_header":"nachricht4_header",
+	"nachricht4_text":"nachricht4_text",
+	"nachricht4_info":"nachricht4_info",
+	"nachricht4_img":"images/4.jpg"
+			
+}
