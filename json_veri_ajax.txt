@@ -1,6 +1,6 @@
 {
 	"nachricht1_header":"nachricht1_header",
-	"nachricht1_text":"nachricht1_text",
+	"nachricht1_text":"nachricht1_text hannover hannover hannover",
 	"nachricht1_info":"nachricht1_info",
 	"nachricht1_img":"images/3.jpg",
 
