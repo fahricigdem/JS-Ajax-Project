@@ -27,8 +27,7 @@ xmlhttp.onreadystatechange=function(){
             document.getElementById("info"+i).innerHTML=daten["nachricht"+i+"_info"];
             
         }
-
-
-
     }
 }
+
+
